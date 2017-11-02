@@ -1,6 +1,6 @@
 set :stage, :production
 
-server '128.199.132.51', user: 'avew', roles: %w{web app}
+server '128.199.132.51', user: 'avew', roles: %w{web app}, port: 2222
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
