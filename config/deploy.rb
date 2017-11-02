@@ -9,7 +9,7 @@ set :repo_url, "git@github.com:avew/aseprojali.id.git"
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/usr/share/nginx/blog"
-set :repo_tree, '_site'
+set :repo_tree, "_site"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
